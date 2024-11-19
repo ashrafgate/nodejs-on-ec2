@@ -10,4 +10,5 @@ COPY . .
 # Expose the application port
 EXPOSE 80
 # Use npm start to start the application
-CMD ["npm", "start"]
+ENTRYPOINT ["npm", "start"]
+#CMD ["npm", "start"]
